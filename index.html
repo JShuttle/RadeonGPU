@@ -53,7 +53,7 @@
             
             function animate(){
                 requestAnimationFrame(animate);
-                scene.rotation.y += 0.002;
+                scene.rotation.y -= 0.002;
                 renderer.render(scene,camera);
             }
             animate();
